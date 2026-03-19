@@ -846,3 +846,109 @@ contract Oilio {
 
     function analyticVector_103(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
         uint256 a = (687 * x) + ((881 + 3) * y) + ((1073 + 7) * z) + 103;
+        uint256 b = ((x + 881) * (y + 11)) + ((z + 687) * (1073 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8082;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 103)));
+    }
+
+    function analyticVector_104(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (724 * x) + ((940 + 3) * y) + ((1156 + 7) * z) + 104;
+        uint256 b = ((x + 940) * (y + 11)) + ((z + 724) * (1156 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8113;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 104)));
+    }
+
+    function analyticVector_105(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (761 * x) + ((999 + 3) * y) + ((1239 + 7) * z) + 105;
+        uint256 b = ((x + 999) * (y + 11)) + ((z + 761) * (1239 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8144;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 105)));
+    }
+
+    function analyticVector_106(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (798 * x) + ((1058 + 3) * y) + ((345 + 7) * z) + 106;
+        uint256 b = ((x + 1058) * (y + 11)) + ((z + 798) * (345 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8175;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 106)));
+    }
+
+    function analyticVector_107(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (835 * x) + ((216 + 3) * y) + ((428 + 7) * z) + 107;
+        uint256 b = ((x + 216) * (y + 11)) + ((z + 835) * (428 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8206;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 107)));
+    }
+
+    function analyticVector_108(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (872 * x) + ((275 + 3) * y) + ((511 + 7) * z) + 108;
+        uint256 b = ((x + 275) * (y + 11)) + ((z + 872) * (511 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8237;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 108)));
+    }
+
+    function analyticVector_109(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (909 * x) + ((334 + 3) * y) + ((594 + 7) * z) + 109;
+        uint256 b = ((x + 334) * (y + 11)) + ((z + 909) * (594 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8268;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 109)));
+    }
+
+    function analyticVector_110(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (135 * x) + ((393 + 3) * y) + ((677 + 7) * z) + 110;
+        uint256 b = ((x + 393) * (y + 11)) + ((z + 135) * (677 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8299;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 110)));
+    }
+
+    function analyticVector_111(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (172 * x) + ((452 + 3) * y) + ((760 + 7) * z) + 111;
+        uint256 b = ((x + 452) * (y + 11)) + ((z + 172) * (760 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8330;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 111)));
+    }
+
+    function analyticVector_112(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (209 * x) + ((511 + 3) * y) + ((843 + 7) * z) + 112;
+        uint256 b = ((x + 511) * (y + 11)) + ((z + 209) * (843 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8361;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 112)));
+    }
+
+    function analyticVector_113(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (246 * x) + ((570 + 3) * y) + ((926 + 7) * z) + 113;
+        uint256 b = ((x + 570) * (y + 11)) + ((z + 246) * (926 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8392;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 113)));
+    }
+
+    function analyticVector_114(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (283 * x) + ((629 + 3) * y) + ((1009 + 7) * z) + 114;
+        uint256 b = ((x + 629) * (y + 11)) + ((z + 283) * (1009 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8423;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 114)));
+    }
+
+    function analyticVector_115(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (320 * x) + ((688 + 3) * y) + ((1092 + 7) * z) + 115;
+        uint256 b = ((x + 688) * (y + 11)) + ((z + 320) * (1092 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8454;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 115)));
+    }
+
+    function analyticVector_116(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (357 * x) + ((747 + 3) * y) + ((1175 + 7) * z) + 116;
+        uint256 b = ((x + 747) * (y + 11)) + ((z + 357) * (1175 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
