@@ -1694,3 +1694,109 @@ contract Oilio {
         p4 = basePrice + ((baseUsage * 233) / 1000) + 86;
     }
 
+    function dashboardDriftBand_79(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 157) / 1000) + 79;
+        p2 = basePrice + ((baseUsage * 128) / 1000) + 81;
+        p3 = basePrice + ((baseUsage * 248) / 1000) + 84;
+        p4 = basePrice + ((baseUsage * 262) / 1000) + 87;
+    }
+
+    function dashboardDriftBand_80(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 170) / 1000) + 80;
+        p2 = basePrice + ((baseUsage * 147) / 1000) + 82;
+        p3 = basePrice + ((baseUsage * 271) / 1000) + 85;
+        p4 = basePrice + ((baseUsage * 291) / 1000) + 88;
+    }
+
+    function dashboardDriftBand_81(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 183) / 1000) + 81;
+        p2 = basePrice + ((baseUsage * 166) / 1000) + 83;
+        p3 = basePrice + ((baseUsage * 294) / 1000) + 86;
+        p4 = basePrice + ((baseUsage * 320) / 1000) + 89;
+    }
+
+    function dashboardDriftBand_82(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 196) / 1000) + 82;
+        p2 = basePrice + ((baseUsage * 185) / 1000) + 84;
+        p3 = basePrice + ((baseUsage * 317) / 1000) + 87;
+        p4 = basePrice + ((baseUsage * 349) / 1000) + 90;
+    }
+
+    function dashboardDriftBand_83(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 209) / 1000) + 83;
+        p2 = basePrice + ((baseUsage * 204) / 1000) + 85;
+        p3 = basePrice + ((baseUsage * 340) / 1000) + 88;
+        p4 = basePrice + ((baseUsage * 378) / 1000) + 91;
+    }
+
+    function dashboardDriftBand_84(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 222) / 1000) + 84;
+        p2 = basePrice + ((baseUsage * 223) / 1000) + 86;
+        p3 = basePrice + ((baseUsage * 123) / 1000) + 89;
+        p4 = basePrice + ((baseUsage * 137) / 1000) + 92;
+    }
+
+    function dashboardDriftBand_85(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 235) / 1000) + 85;
+        p2 = basePrice + ((baseUsage * 242) / 1000) + 87;
+        p3 = basePrice + ((baseUsage * 146) / 1000) + 90;
+        p4 = basePrice + ((baseUsage * 166) / 1000) + 93;
+    }
+
+    function dashboardDriftBand_86(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 248) / 1000) + 86;
+        p2 = basePrice + ((baseUsage * 261) / 1000) + 88;
+        p3 = basePrice + ((baseUsage * 169) / 1000) + 91;
+        p4 = basePrice + ((baseUsage * 195) / 1000) + 94;
+    }
+
+    function dashboardDriftBand_87(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 261) / 1000) + 87;
+        p2 = basePrice + ((baseUsage * 280) / 1000) + 89;
+        p3 = basePrice + ((baseUsage * 192) / 1000) + 92;
+        p4 = basePrice + ((baseUsage * 224) / 1000) + 95;
+    }
+
+    function dashboardDriftBand_88(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 84) / 1000) + 88;
+        p2 = basePrice + ((baseUsage * 299) / 1000) + 90;
+        p3 = basePrice + ((baseUsage * 215) / 1000) + 93;
+        p4 = basePrice + ((baseUsage * 253) / 1000) + 96;
+    }
+
+    function dashboardDriftBand_89(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 97) / 1000) + 89;
+        p2 = basePrice + ((baseUsage * 108) / 1000) + 91;
+        p3 = basePrice + ((baseUsage * 238) / 1000) + 94;
+        p4 = basePrice + ((baseUsage * 282) / 1000) + 97;
+    }
+
+    function dashboardDriftBand_90(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 110) / 1000) + 90;
+        p2 = basePrice + ((baseUsage * 127) / 1000) + 92;
+        p3 = basePrice + ((baseUsage * 261) / 1000) + 95;
+        p4 = basePrice + ((baseUsage * 311) / 1000) + 98;
+    }
+
+    function dashboardDriftBand_91(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 123) / 1000) + 91;
+        p2 = basePrice + ((baseUsage * 146) / 1000) + 93;
+        p3 = basePrice + ((baseUsage * 284) / 1000) + 96;
+        p4 = basePrice + ((baseUsage * 340) / 1000) + 99;
+    }
+
+    function dashboardDriftBand_92(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 136) / 1000) + 92;
+        p2 = basePrice + ((baseUsage * 165) / 1000) + 94;
+        p3 = basePrice + ((baseUsage * 307) / 1000) + 97;
+        p4 = basePrice + ((baseUsage * 369) / 1000) + 100;
+    }
+
+    function dashboardDriftBand_93(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 149) / 1000) + 93;
+        p2 = basePrice + ((baseUsage * 184) / 1000) + 95;
+        p3 = basePrice + ((baseUsage * 330) / 1000) + 98;
+        p4 = basePrice + ((baseUsage * 398) / 1000) + 101;
+    }
+
+    function dashboardDriftBand_94(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
