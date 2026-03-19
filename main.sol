@@ -1376,3 +1376,109 @@ contract Oilio {
         p1 = basePrice + ((baseUsage * 129) / 1000) + 33;
         p2 = basePrice + ((baseUsage * 304) / 1000) + 35;
         p3 = basePrice + ((baseUsage * 150) / 1000) + 38;
+        p4 = basePrice + ((baseUsage * 278) / 1000) + 41;
+    }
+
+    function dashboardDriftBand_34(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 142) / 1000) + 34;
+        p2 = basePrice + ((baseUsage * 113) / 1000) + 36;
+        p3 = basePrice + ((baseUsage * 173) / 1000) + 39;
+        p4 = basePrice + ((baseUsage * 307) / 1000) + 42;
+    }
+
+    function dashboardDriftBand_35(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 155) / 1000) + 35;
+        p2 = basePrice + ((baseUsage * 132) / 1000) + 37;
+        p3 = basePrice + ((baseUsage * 196) / 1000) + 40;
+        p4 = basePrice + ((baseUsage * 336) / 1000) + 43;
+    }
+
+    function dashboardDriftBand_36(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 168) / 1000) + 36;
+        p2 = basePrice + ((baseUsage * 151) / 1000) + 38;
+        p3 = basePrice + ((baseUsage * 219) / 1000) + 41;
+        p4 = basePrice + ((baseUsage * 365) / 1000) + 44;
+    }
+
+    function dashboardDriftBand_37(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 181) / 1000) + 37;
+        p2 = basePrice + ((baseUsage * 170) / 1000) + 39;
+        p3 = basePrice + ((baseUsage * 242) / 1000) + 42;
+        p4 = basePrice + ((baseUsage * 394) / 1000) + 45;
+    }
+
+    function dashboardDriftBand_38(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 194) / 1000) + 38;
+        p2 = basePrice + ((baseUsage * 189) / 1000) + 40;
+        p3 = basePrice + ((baseUsage * 265) / 1000) + 43;
+        p4 = basePrice + ((baseUsage * 153) / 1000) + 46;
+    }
+
+    function dashboardDriftBand_39(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 207) / 1000) + 39;
+        p2 = basePrice + ((baseUsage * 208) / 1000) + 41;
+        p3 = basePrice + ((baseUsage * 288) / 1000) + 44;
+        p4 = basePrice + ((baseUsage * 182) / 1000) + 47;
+    }
+
+    function dashboardDriftBand_40(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 220) / 1000) + 40;
+        p2 = basePrice + ((baseUsage * 227) / 1000) + 42;
+        p3 = basePrice + ((baseUsage * 311) / 1000) + 45;
+        p4 = basePrice + ((baseUsage * 211) / 1000) + 48;
+    }
+
+    function dashboardDriftBand_41(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 233) / 1000) + 41;
+        p2 = basePrice + ((baseUsage * 246) / 1000) + 43;
+        p3 = basePrice + ((baseUsage * 334) / 1000) + 46;
+        p4 = basePrice + ((baseUsage * 240) / 1000) + 49;
+    }
+
+    function dashboardDriftBand_42(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 246) / 1000) + 42;
+        p2 = basePrice + ((baseUsage * 265) / 1000) + 44;
+        p3 = basePrice + ((baseUsage * 117) / 1000) + 47;
+        p4 = basePrice + ((baseUsage * 269) / 1000) + 50;
+    }
+
+    function dashboardDriftBand_43(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 259) / 1000) + 43;
+        p2 = basePrice + ((baseUsage * 284) / 1000) + 45;
+        p3 = basePrice + ((baseUsage * 140) / 1000) + 48;
+        p4 = basePrice + ((baseUsage * 298) / 1000) + 51;
+    }
+
+    function dashboardDriftBand_44(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 82) / 1000) + 44;
+        p2 = basePrice + ((baseUsage * 303) / 1000) + 46;
+        p3 = basePrice + ((baseUsage * 163) / 1000) + 49;
+        p4 = basePrice + ((baseUsage * 327) / 1000) + 52;
+    }
+
+    function dashboardDriftBand_45(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 95) / 1000) + 45;
+        p2 = basePrice + ((baseUsage * 112) / 1000) + 47;
+        p3 = basePrice + ((baseUsage * 186) / 1000) + 50;
+        p4 = basePrice + ((baseUsage * 356) / 1000) + 53;
+    }
+
+    function dashboardDriftBand_46(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 108) / 1000) + 46;
+        p2 = basePrice + ((baseUsage * 131) / 1000) + 48;
+        p3 = basePrice + ((baseUsage * 209) / 1000) + 51;
+        p4 = basePrice + ((baseUsage * 385) / 1000) + 54;
+    }
+
+    function dashboardDriftBand_47(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 121) / 1000) + 47;
+        p2 = basePrice + ((baseUsage * 150) / 1000) + 49;
+        p3 = basePrice + ((baseUsage * 232) / 1000) + 52;
+        p4 = basePrice + ((baseUsage * 144) / 1000) + 55;
+    }
+
+    function dashboardDriftBand_48(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 134) / 1000) + 48;
+        p2 = basePrice + ((baseUsage * 169) / 1000) + 50;
+        p3 = basePrice + ((baseUsage * 255) / 1000) + 53;
+        p4 = basePrice + ((baseUsage * 173) / 1000) + 56;
