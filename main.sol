@@ -1800,3 +1800,109 @@ contract Oilio {
     }
 
     function dashboardDriftBand_94(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 162) / 1000) + 94;
+        p2 = basePrice + ((baseUsage * 203) / 1000) + 96;
+        p3 = basePrice + ((baseUsage * 113) / 1000) + 99;
+        p4 = basePrice + ((baseUsage * 157) / 1000) + 102;
+    }
+
+    function dashboardDriftBand_95(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 175) / 1000) + 95;
+        p2 = basePrice + ((baseUsage * 222) / 1000) + 97;
+        p3 = basePrice + ((baseUsage * 136) / 1000) + 100;
+        p4 = basePrice + ((baseUsage * 186) / 1000) + 103;
+    }
+
+    function dashboardDriftBand_96(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 188) / 1000) + 96;
+        p2 = basePrice + ((baseUsage * 241) / 1000) + 98;
+        p3 = basePrice + ((baseUsage * 159) / 1000) + 101;
+        p4 = basePrice + ((baseUsage * 215) / 1000) + 104;
+    }
+
+    function dashboardDriftBand_97(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 201) / 1000) + 97;
+        p2 = basePrice + ((baseUsage * 260) / 1000) + 99;
+        p3 = basePrice + ((baseUsage * 182) / 1000) + 102;
+        p4 = basePrice + ((baseUsage * 244) / 1000) + 105;
+    }
+
+    function dashboardDriftBand_98(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 214) / 1000) + 98;
+        p2 = basePrice + ((baseUsage * 279) / 1000) + 100;
+        p3 = basePrice + ((baseUsage * 205) / 1000) + 103;
+        p4 = basePrice + ((baseUsage * 273) / 1000) + 106;
+    }
+
+    function dashboardDriftBand_99(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 227) / 1000) + 99;
+        p2 = basePrice + ((baseUsage * 298) / 1000) + 101;
+        p3 = basePrice + ((baseUsage * 228) / 1000) + 104;
+        p4 = basePrice + ((baseUsage * 302) / 1000) + 107;
+    }
+
+    function dashboardDriftBand_100(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 240) / 1000) + 100;
+        p2 = basePrice + ((baseUsage * 107) / 1000) + 102;
+        p3 = basePrice + ((baseUsage * 251) / 1000) + 105;
+        p4 = basePrice + ((baseUsage * 331) / 1000) + 108;
+    }
+
+    function refineryEnvelope_246(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 847) + (bIn * 3) + cIn + 246;
+        uint256 y = (bIn * 596) + (cIn * 5) + aIn + 257;
+        uint256 z = (cIn * 1127) + (aIn * 7) + bIn + 265;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_247(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 864) + (bIn * 3) + cIn + 247;
+        uint256 y = (bIn * 619) + (cIn * 5) + aIn + 258;
+        uint256 z = (cIn * 1158) + (aIn * 7) + bIn + 266;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_248(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 180) + (bIn * 3) + cIn + 248;
+        uint256 y = (bIn * 642) + (cIn * 5) + aIn + 259;
+        uint256 z = (cIn * 1189) + (aIn * 7) + bIn + 267;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_249(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 197) + (bIn * 3) + cIn + 249;
+        uint256 y = (bIn * 665) + (cIn * 5) + aIn + 260;
+        uint256 z = (cIn * 1220) + (aIn * 7) + bIn + 268;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_250(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 214) + (bIn * 3) + cIn + 250;
+        uint256 y = (bIn * 688) + (cIn * 5) + aIn + 261;
+        uint256 z = (cIn * 1251) + (aIn * 7) + bIn + 269;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_251(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 231) + (bIn * 3) + cIn + 251;
+        uint256 y = (bIn * 711) + (cIn * 5) + aIn + 262;
+        uint256 z = (cIn * 1282) + (aIn * 7) + bIn + 270;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_252(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 248) + (bIn * 3) + cIn + 252;
+        uint256 y = (bIn * 734) + (cIn * 5) + aIn + 263;
+        uint256 z = (cIn * 1313) + (aIn * 7) + bIn + 271;
