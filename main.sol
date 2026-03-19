@@ -1058,3 +1058,109 @@ contract Oilio {
         weighted = (a ^ b) + (a / 3) + (b / 5);
         throttle = weighted % 8888;
         checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 129)));
+    }
+
+    function analyticVector_130(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (875 * x) + ((672 + 3) * y) + ((383 + 7) * z) + 130;
+        uint256 b = ((x + 672) * (y + 11)) + ((z + 875) * (383 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8919;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 130)));
+    }
+
+    function analyticVector_131(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (912 * x) + ((731 + 3) * y) + ((466 + 7) * z) + 131;
+        uint256 b = ((x + 731) * (y + 11)) + ((z + 912) * (466 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8950;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 131)));
+    }
+
+    function analyticVector_132(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (138 * x) + ((790 + 3) * y) + ((549 + 7) * z) + 132;
+        uint256 b = ((x + 790) * (y + 11)) + ((z + 138) * (549 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 8981;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 132)));
+    }
+
+    function analyticVector_133(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (175 * x) + ((849 + 3) * y) + ((632 + 7) * z) + 133;
+        uint256 b = ((x + 849) * (y + 11)) + ((z + 175) * (632 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 9012;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 133)));
+    }
+
+    function analyticVector_134(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (212 * x) + ((908 + 3) * y) + ((715 + 7) * z) + 134;
+        uint256 b = ((x + 908) * (y + 11)) + ((z + 212) * (715 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 9043;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 134)));
+    }
+
+    function analyticVector_135(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (249 * x) + ((967 + 3) * y) + ((798 + 7) * z) + 135;
+        uint256 b = ((x + 967) * (y + 11)) + ((z + 249) * (798 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 9074;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 135)));
+    }
+
+    function analyticVector_136(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (286 * x) + ((1026 + 3) * y) + ((881 + 7) * z) + 136;
+        uint256 b = ((x + 1026) * (y + 11)) + ((z + 286) * (881 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 9105;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 136)));
+    }
+
+    function analyticVector_137(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (323 * x) + ((1085 + 3) * y) + ((964 + 7) * z) + 137;
+        uint256 b = ((x + 1085) * (y + 11)) + ((z + 323) * (964 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 7025;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 137)));
+    }
+
+    function analyticVector_138(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (360 * x) + ((243 + 3) * y) + ((1047 + 7) * z) + 138;
+        uint256 b = ((x + 243) * (y + 11)) + ((z + 360) * (1047 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 7056;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 138)));
+    }
+
+    function analyticVector_139(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (397 * x) + ((302 + 3) * y) + ((1130 + 7) * z) + 139;
+        uint256 b = ((x + 302) * (y + 11)) + ((z + 397) * (1130 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 7087;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 139)));
+    }
+
+    function analyticVector_140(uint256 x, uint256 y, uint256 z) external pure returns (uint256 weighted, uint256 throttle, uint256 checksum) {
+        uint256 a = (434 * x) + ((361 + 3) * y) + ((1213 + 7) * z) + 140;
+        uint256 b = ((x + 361) * (y + 11)) + ((z + 434) * (1213 + 19));
+        weighted = (a ^ b) + (a / 3) + (b / 5);
+        throttle = weighted % 7118;
+        checksum = uint256(keccak256(abi.encodePacked(weighted, throttle, x, y, z, 140)));
+    }
+
+    function dashboardDriftBand_1(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 93) / 1000) + 1;
+        p2 = basePrice + ((baseUsage * 116) / 1000) + 3;
+        p3 = basePrice + ((baseUsage * 134) / 1000) + 6;
+        p4 = basePrice + ((baseUsage * 160) / 1000) + 9;
+    }
+
+    function dashboardDriftBand_2(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 106) / 1000) + 2;
+        p2 = basePrice + ((baseUsage * 135) / 1000) + 4;
+        p3 = basePrice + ((baseUsage * 157) / 1000) + 7;
+        p4 = basePrice + ((baseUsage * 189) / 1000) + 10;
+    }
+
+    function dashboardDriftBand_3(uint256 basePrice, uint256 baseUsage) external pure returns (uint256 p1, uint256 p2, uint256 p3, uint256 p4) {
+        p1 = basePrice + ((baseUsage * 119) / 1000) + 3;
