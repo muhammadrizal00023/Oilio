@@ -4238,3 +4238,89 @@ contract Oilio {
         uint256 y = (bIn * 482) + (cIn * 5) + aIn + 522;
         uint256 z = (cIn * 549) + (aIn * 7) + bIn + 530;
         m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_512(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 462) + (bIn * 3) + cIn + 512;
+        uint256 y = (bIn * 505) + (cIn * 5) + aIn + 523;
+        uint256 z = (cIn * 580) + (aIn * 7) + bIn + 531;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_513(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 479) + (bIn * 3) + cIn + 513;
+        uint256 y = (bIn * 528) + (cIn * 5) + aIn + 524;
+        uint256 z = (cIn * 611) + (aIn * 7) + bIn + 532;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_514(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 496) + (bIn * 3) + cIn + 514;
+        uint256 y = (bIn * 551) + (cIn * 5) + aIn + 525;
+        uint256 z = (cIn * 642) + (aIn * 7) + bIn + 533;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_515(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 513) + (bIn * 3) + cIn + 515;
+        uint256 y = (bIn * 574) + (cIn * 5) + aIn + 526;
+        uint256 z = (cIn * 673) + (aIn * 7) + bIn + 534;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_516(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 530) + (bIn * 3) + cIn + 516;
+        uint256 y = (bIn * 597) + (cIn * 5) + aIn + 527;
+        uint256 z = (cIn * 704) + (aIn * 7) + bIn + 535;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_517(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 547) + (bIn * 3) + cIn + 517;
+        uint256 y = (bIn * 620) + (cIn * 5) + aIn + 528;
+        uint256 z = (cIn * 735) + (aIn * 7) + bIn + 536;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_518(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 564) + (bIn * 3) + cIn + 518;
+        uint256 y = (bIn * 643) + (cIn * 5) + aIn + 529;
+        uint256 z = (cIn * 766) + (aIn * 7) + bIn + 537;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_519(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 581) + (bIn * 3) + cIn + 519;
+        uint256 y = (bIn * 666) + (cIn * 5) + aIn + 530;
+        uint256 z = (cIn * 797) + (aIn * 7) + bIn + 538;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+    function refineryEnvelope_520(uint256 aIn, uint256 bIn, uint256 cIn) external pure returns (uint256 m1, uint256 m2, uint256 m3) {
+        uint256 x = (aIn * 598) + (bIn * 3) + cIn + 520;
+        uint256 y = (bIn * 689) + (cIn * 5) + aIn + 531;
+        uint256 z = (cIn * 828) + (aIn * 7) + bIn + 539;
+        m1 = (x ^ y) + (z / 2);
+        m2 = (y ^ z) + (x / 3);
+        m3 = uint256(keccak256(abi.encodePacked(m1, m2, x, y, z)));
+    }
+
+}
